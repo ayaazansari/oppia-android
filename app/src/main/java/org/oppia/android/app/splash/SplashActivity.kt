@@ -43,6 +43,7 @@ class SplashActivity :
     (activityComponent as ActivityComponentImpl).inject(this)
     splashActivityPresenter.handleOnCreate()
     intent.decorateWithScreenName(SPLASH_ACTIVITY)
+    //change new done
   }
 
   override fun createFragmentComponent(fragment: Fragment): FragmentComponent {
